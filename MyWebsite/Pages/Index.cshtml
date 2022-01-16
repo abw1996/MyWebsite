@@ -7,7 +7,7 @@
     <video autoplay muted loop class="chill-animation">
         <source src="~/assets/websiteOpeningAnimation.mp4"/>
     </video>
-<div class="container-fluid video-div">
+<div class="container-fluid video-div background-grey">
     <div class="heading-over-animation">
         <header>
             <div class="row">
@@ -23,10 +23,22 @@
                             <div class="d-sm-inline-flex flex-sm-row-reverse">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link link-style" asp-area="" asp-page="/Index">Home</a>
+                                        <a class="nav-link link-style" asp-area="" asp-fragment="WebService">Web Service</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link link-style" asp-area="" asp-page="/Privacy">Privacy</a>
+                                        <a class="nav-link link-style" asp-area="" asp-fragment="Stack">Web Stack and Rates</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link link-style" asp-area="" asp-fragment="ArtAndDesign">Art and Design</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link link-style" asp-area="" asp-fragment="ArtCommission">Art Commission</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link link-style" asp-area="" asp-fragment="AboutMe">About Me</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link link-style" asp-area="" asp-fragment="Contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -40,10 +52,139 @@
     </div>
 </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<hr class="hr-style"/>
+
+<div class="row background-grey selection-div text-center" id="WebService">
+    <div class="col-1"></div>
+    <div class="col-10">
+        <div class="row m-3 align-items-center">
+            <div class="col-6">
+                <h2 class="styled-header">
+                    Web Services
+                </h2>
+                <p1 class="styled-paragraph">
+                    Words and such
+                </p1>
+            </div>
+            <div class="col-6">
+                <img class="img img-fluid" src="/assets/Girl on computer.jpg" />
+            </div>
+        </div>
+    </div>
+    <div class="col-1"></div>
 </div>
+
+<hr class="hr-style"/>
+
+<div class="row background-grey selection-div text-center" id="Stack">
+    <div class="col-1"></div>
+    <div class="col-10">
+        <div class="row m-3 align-items-center">
+            <div class="col-6">
+                <img class="img img-fluid" src="/assets/Book Stack.png" />
+            </div>
+            <div class="col-6">
+                <h2 class="styled-header">
+                    Stack
+                </h2>
+                <p1 class="styled-paragraph">
+                    Words and such
+                </p1>
+            </div>
+        </div>
+    </div>
+    <div class="col-1"></div>
+</div>
+
+<hr class="hr-style"/>
+
+<div class="row background-grey selection-div text-center" id="ArtAndDesign">
+    <div class="col-1"></div>
+    <div class="col-10">
+        <div class="row m-3 align-items-center">
+            <div class="col-6">
+                <h2 class="styled-header">
+                    Art and Design
+                </h2>
+                <p1 class="styled-paragraph">
+                    Words and such
+                </p1>
+            </div>
+            <div class="col-6">
+                <img class="img img-fluid" src="/assets/Art Pallete.png" />
+            </div>
+        </div>
+    </div>
+    <div class="col-1"></div>
+</div>
+
+<hr class="hr-style"/>
+
+<div class="row background-grey selection-div text-center" id="ArtCommission">
+    <div class="col-1"></div>
+    <div class="col-10">
+        <div class="row m-3 align-items-center">
+            <div class="col-6">
+                <img class="img img-fluid" src="/assets/1 hour challenge 4.png" />
+            </div>
+            <div class="col-6">
+                <h2 class="styled-header">
+                    Art Commissions
+                </h2>
+                <p1 class="styled-paragraph">
+                    Words and such
+                </p1>
+            </div>
+        </div>
+    </div>
+    <div class="col-1"></div>
+</div>
+
+<hr class="hr-style"/>
+
+<div class="row background-grey selection-div text-center" id="AboutMe">
+    <div class="col-1"></div>
+    <div class="col-10">
+        <div class="row m-3 align-items-center">
+            <div class="col-6">
+                <h2 class="styled-header">
+                    About Me
+                </h2>
+                <p1 class="styled-paragraph">
+                    Words and such
+                </p1>
+            </div>
+            <div class="col-6">
+                <img class="img img-fluid" src="/assets/Self Port.jpg" />
+            </div>
+        </div>
+    </div>
+    <div class="col-1"></div>
+</div>
+
+<hr class="hr-style"/>
+
+<div class="row background-grey selection-div text-center" id="Contact">
+    <div class="col-1"></div>
+    <div class="col-10">
+        <div class="row m-3 align-items-center">
+            <div class="col-6">
+                <img class="img img-fluid" src="/assets/Vintage Phone.png" />
+            </div>
+            <div class="col-6">
+                <h2 class="styled-header">
+                    Contact Me
+                </h2>
+                <p1 class="styled-paragraph">
+                    Words and such
+                </p1>
+            </div>
+        </div>
+    </div>
+    <div class="col-1"></div>
+</div>
+
+<hr class="hr-style"/>
 
 <footer class="border-top footer text-muted">
         <div class="container">

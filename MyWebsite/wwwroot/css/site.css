@@ -47,6 +47,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: black;
 }
 
 .border-top {
@@ -111,4 +112,40 @@ body {
     font-family: MoonEarth;
     font-size: 15px;
     color: white;
+}
+
+.background-grey {
+    background-image: url("../assets/Background.png");
+    background-size: cover;
+}
+
+.selection-div {
+    
+}
+
+.styled-header {
+    font-family: MoonEarth;
+    font-size: 30px;
+    color: white;
+}
+
+.styled-paragraph {
+    font-family: MoonEarth;
+    font-size: 15px;
+    color: white;
+}
+
+.hr-style {
+    background-color: rgba(59,38,33);
+    margin: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 0px;
+    padding: 0px;
+    height: 0px;
+    border-radius: 5px;
+}
+
+img {
+    box-shadow: rgba(0,0,0,.2)10px 10px;
 }

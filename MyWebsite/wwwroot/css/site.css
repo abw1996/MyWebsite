@@ -16,9 +16,6 @@ a.navbar-brand {
 }
 
 /* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
-}
 
 .btn-primary {
   color: #fff;
@@ -41,6 +38,10 @@ html {
   html {
     font-size: 16px;
   }
+}
+
+.nav-item :hover {
+    color: rgba(250,227,203, 1) !important;
 }
 
 body{
@@ -114,6 +115,10 @@ body {
     color: white;
 }
 
+    .link-style :hover {
+        color: rgba(250,227,203, 1) !important;
+    }
+
 .background-grey {
     background-image: url("../assets/Background.png");
     background-size: cover;
@@ -125,27 +130,77 @@ body {
 
 .styled-header {
     font-family: MoonEarth;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
 }
 
 .styled-paragraph {
+    font-family: Georgia,'Century Gothic';
+    font-size: 17px;
+    color: white;
+}
+
+.box-style {
     font-family: MoonEarth;
     font-size: 15px;
     color: white;
 }
 
 .hr-style {
-    background-color: rgba(59,38,33);
+    background-color: rgba(59,38,33, 1);
     margin: 0px;
     margin-left: 80px;
     margin-right: 80px;
     border: 0px;
     padding: 0px;
-    height: 0px;
-    border-radius: 5px;
+    height: 5px;
 }
 
 img {
     box-shadow: rgba(0,0,0,.2)10px 10px;
 }
+
+
+.divider-div {
+    text-align: center;
+    background-color: rgba(59,38,33, 1);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.divider-header {
+    font-family: MoonEarth;
+    font-size: 90px;
+    color: white;
+    margin: 0px;
+}
+.divider-div :hover {
+    color: rgba(250,227,203, 1);
+}
+
+.hollow-box {
+    border: 8px solid white;
+    min-height: 300px;
+}
+
+.hover-white :hover {
+    background-color: white;
+}
+
+    .hollow-box:hover .styled-header {
+        color: black;
+    }
+
+    .hollow-box:hover .styled-paragraph {
+        color: black;
+    }
+
+.contact {
+    font-family: MoonEarth;
+    color: white;
+}
+
+    .contact :hover {
+        color: rgba(250,227,203, 1) !important;
+    }
